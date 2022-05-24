@@ -2,11 +2,16 @@ package com.orange.SocialSharing.models;
 
 
 import com.orange.SocialSharing.enumeration.InvitationStatus;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Date;
 
+@Document(collection = "invitations")
 public class Invitation {
 
+    @Id
+    private int invitationId;
     private Date friendshipDate;
     private InvitationStatus status;
 

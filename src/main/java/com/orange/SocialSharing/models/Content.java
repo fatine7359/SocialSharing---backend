@@ -1,7 +1,10 @@
 package com.orange.SocialSharing.models;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
 import java.util.List;
 
+@Document(collection = "contents")
 public class Content {
     private String body;
     private List<String> links;

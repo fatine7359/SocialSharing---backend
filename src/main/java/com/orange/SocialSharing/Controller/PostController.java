@@ -1,6 +1,7 @@
-package com.orange.SocialSharing.post;
+package com.orange.SocialSharing.Controller;
 
 
+import com.orange.SocialSharing.Service.PostService;
 import com.orange.SocialSharing.models.Post;
 import org.springframework.web.bind.annotation.*;
 

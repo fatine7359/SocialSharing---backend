@@ -1,5 +1,8 @@
 package com.orange.SocialSharing.models;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "comments")
 public class Comment {
     private int likesCount;
     private int dislikeCount;

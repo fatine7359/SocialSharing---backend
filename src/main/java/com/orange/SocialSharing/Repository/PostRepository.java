@@ -1,4 +1,4 @@
-package com.orange.SocialSharing.post;
+package com.orange.SocialSharing.Repository;
 
 import com.orange.SocialSharing.models.Post;
 import org.springframework.data.mongodb.repository.MongoRepository;

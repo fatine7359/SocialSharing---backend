@@ -1,5 +1,8 @@
 package com.orange.SocialSharing.models;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "addresses")
 public class Address {
     private String country;
     private String city;

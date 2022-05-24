@@ -1,7 +1,10 @@
 package com.orange.SocialSharing.models;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
 import java.util.Date;
 
+@Document(collection = "events")
 public class Event extends Post{
 
     private String title;
